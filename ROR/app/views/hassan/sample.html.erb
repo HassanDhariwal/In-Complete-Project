@@ -1,0 +1,19 @@
+<h1>Hassan#Sample</h1>
+<%#comment%>
+<p>Find me in app/views/hassan/sample.html.erb</p> 
+ 
+ <%= "Message from controller : #{@controller_message}" %>
+<!--  link_to ("LinkText","Link")
+ {:cotoller => 'welcome'
+ :action =>  'index'}
+ -->
+ <!-- give the link in of other website  -->
+
+<%= link_to("go to index",
+{
+	#:controller => 'hassan', #here controller name is hassan not a welcome 
+	:action => 'index' ,
+:id => 5, :random => "Derek"}) %>
+
+
+
